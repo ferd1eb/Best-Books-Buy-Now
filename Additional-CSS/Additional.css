@@ -1,0 +1,78 @@
+.button {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 6px;
+  border: 0;
+  font-weight: bold;
+  letter-spacing: 0.0625em;
+  text-transform: uppercase;
+  background: #615f8b;
+  color: #fff;
+}
+/* Add a rollover background colour but keep the text white */
+.button:hover,
+.button:focus,
+.button:active {
+  background: #b7b6cd;
+  color: #fff;
+}
+
+.amazonlink {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 6px;
+  border: 0;
+  font-weight: bold;
+  letter-spacing: 0.0625em;
+  background: #fff;
+  color: #0066c0;
+}
+/* Add a rollover background colour but keep the text white */
+.amazonlink:hover,
+.amazonlink:focus,
+.amazonlink:active {
+  background: #ffcc66;
+  color: #000;
+}
+
+.amazonButton {
+	display: inline-block;
+	padding: 12px 24px; 
+	border-radius: 6px; 
+	border: 2px solid #000; 
+	font-weight: bold; 
+	letter-spacing: 0.0625em; 
+	background: #ffcc66; 
+	color: #000;	
+}
+
+.amazonButton:hover,
+.amazonButton:focus,
+.amazonButton:active {
+	background: #ffcc66; 
+	color: #000;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.amazonButton:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}	
+
+h5.BookHeader {
+	color: #ff9900;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+p.authorHeader {
+	font-style: italic;
+}
+
+p.review {
+	text-align: justify;	
+}
+
+a.highlightlink {
+	color: #0066c0;
+}
